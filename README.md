@@ -2,7 +2,7 @@
 
 An end-to-end data ingestion, machine learning, and interactive geospatial web application analyzing live public safety telemetry from the City of Chicago Data Portal.
 
-**🔗 Live App:** *(Paste your Streamlit Cloud URL here after Step 4)*
+**🔗 Live App:** *(https://chicago-crime-hotspot-explorer-5zwwmqdgyq2keqgavhwjxk.streamlit.app/)*
 
 ## Key Engineering & ML Highlights
 - **Automated Data Pipeline (`src/ingest.py`):** Queries the Chicago Data Portal Socrata API for the 100,000 most recent incidents across top offense categories, applying cyclical encoding ($\sin/\cos$) to preserve circular 24-hour and 12-month continuity and storing compressed `.parquet` artifacts.
